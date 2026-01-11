@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.sharpbytes.rewards.ui.LoginFragment"
+        android:label="Login" />
+
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.sharpbytes.rewards.ui.SignupFragment"
+        android:label="Sign Up" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.sharpbytes.rewards.ui.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.sharpbytes.rewards.ui.GameFragment"
+        android:label="Flash Hustle" />
+
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="com.sharpbytes.rewards.ui.LeaderboardFragment"
+        android:label="Leaderboard" />
+
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.sharpbytes.rewards.ui.WalletFragment"
+        android:label="Wallet" />
+
+    <fragment
+        android:id="@+id/ideaFragment"
+        android:name="com.sharpbytes.rewards.ui.IdeaFragment"
+        android:label="Submit Idea" />
+
+</navigation>
